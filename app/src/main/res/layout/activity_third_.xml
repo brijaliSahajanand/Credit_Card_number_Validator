@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:src="@drawable/img_first" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:src="@drawable/img_heder" />
+
+
+            </LinearLayout>
+
+            <com.ads.adsdemosp.AdsView.quiz_Header_AdsView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:fontFamily="@font/txt_medium"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingMultiplier="1.1"
+                android:text="- Free Credit Cord Number Validator is free application allows you to check your card number and specify the type of card. The algorithm used to process the Luhn algorithm or Luhn formula, also known as the modulus 10 or mod 10 algorithm, is a simple checksum formula used to validate a variety of identification numbers."
+                android:textColor="@color/black" />
+
+            <com.ads.adsdemosp.AdsView.NativeAdsView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/iv_nxt_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/txt_semibold"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="@dimen/_80sdp"
+                android:paddingVertical="@dimen/_15sdp"
+                android:text="Continue"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15ssp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.ads.adsdemosp.AdsView.BannerAdsView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

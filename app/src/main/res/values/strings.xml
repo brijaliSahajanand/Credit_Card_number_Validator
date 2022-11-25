@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Credit Crad Number Validator</string>
+    <string name="ads_loader">Loader</string>
+    <string name="loader">Loader</string>
+    <string name="disconnected">disconnected</string>
+    <string name="credit_card">Credit Card</string>
+
+    <string name="switch_off">Connected</string>
+    <string name="switch_on">Not Connected</string>
+    <string name="card_category">Country Category</string>
+    <string name="check">Check</string>
+
+</resources>

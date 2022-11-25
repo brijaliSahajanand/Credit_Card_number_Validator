@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="@dimen/_2sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:background="@drawable/text_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/txt_reguller"
+            android:includeFontPadding="false"
+            android:text="Card Number"
+            android:textColor="@color/header"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/cardnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/txt_reguller"
+            android:gravity="end"
+            android:includeFontPadding="false"
+            android:text="@string/card_category"
+            android:textColor="@color/answer"
+            android:textSize="@dimen/_13ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/txt_reguller"
+            android:includeFontPadding="false"
+            android:text="Scheme"
+            android:textColor="@color/header"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/txt_reguller"
+            android:gravity="end"
+            android:includeFontPadding="false"
+            android:text="@string/card_category"
+            android:textColor="@color/answer"
+            android:textSize="@dimen/_13ssp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

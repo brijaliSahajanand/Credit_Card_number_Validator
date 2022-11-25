@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:paddingVertical="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkblue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:src="@drawable/img_back" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/txt_semibold"
+                android:includeFontPadding="false"
+                android:padding="5dp"
+                android:text="OVERVIEW"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13ssp" />
+            <com.ads.adsdemosp.AdsView.quiz_Header_AdsView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_5sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/overview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/txt_medium"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="Free Credit card number validator is an useful application to find bin information based on bin number. BIN is also refereed as Bank Identification Number this is an first six digit number of the credit card based on the BIN, we can find the information of the card like bank name, country name, type of the card etc."
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp" />
+
+                <com.ads.adsdemosp.AdsView.NativeAdsView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/save_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:background="@drawable/bg_button"
+                    android:fontFamily="@font/txt_semibold"
+                    android:includeFontPadding="false"
+                    android:paddingHorizontal="@dimen/_80sdp"
+                    android:paddingVertical="@dimen/_15sdp"
+                    android:text="Let's go"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.ads.adsdemosp.AdsView.BannerAdsView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
